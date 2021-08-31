@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/menu_inicio"
+            android:icon="@drawable/ic_outline_home"
+            android:title="Inicio" />
+    </group>
+
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_entrenar"
+            android:icon="@drawable/musculos_negro"
+            android:title="@string/entrenar" />
+    </group>
+
+    <group
+        android:id="@+id/group3"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_listaEjercicios"
+            android:icon="@drawable/ic_baseline_format_list_bulleted"
+            android:title="Listado de ejercicios" />
+    </group>
+
+    <group
+        android:id="@+id/group4"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_imc"
+            android:icon="@drawable/outline_monitor_weight"
+            android:title="Calcula tu IMC" />
+    </group>
+
+    <group
+        android:id="@+id/group5"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_consejos"
+            android:icon="@drawable/ic_baseline_add_circle_outline"
+            android:title="Consejos generales" />
+    </group>
+
+    <item android:title="Extras">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/menu_sobreHouseFit"
+                    android:title="Sobre HouseFit" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

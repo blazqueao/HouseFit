@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.Rutina"
+    tools:ignore="HardcodedText">
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="296dp"
+        android:layout_height="167dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline18" />
+
+    <TextView
+        android:id="@+id/txtNombreEjercicio"
+        android:layout_width="294dp"
+        android:layout_height="165dp"
+        android:layout_marginTop="72dp"
+        android:text="NombreEjercicio"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:autoSizeTextType="none"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Chronometer
+        android:id="@+id/chronometer"
+        android:layout_width="124dp"
+        android:layout_height="71dp"
+        android:countDown="true"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline19" />
+
+    <Button
+        android:id="@+id/btnPausa"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="243dp"
+        android:layout_height="66dp"
+        android:layout_gravity="center"
+        android:contentDescription="Pausar el video"
+        android:paddingLeft="102dp"
+        android:paddingRight="0dp"
+        app:icon="@android:drawable/ic_media_pause"
+        app:iconPadding="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline20"
+        tools:ignore="RtlHardcoded" />
+
+    <Button
+        android:id="@+id/btnEmpezar"
+        android:layout_width="243dp"
+        android:layout_height="66dp"
+        android:layout_gravity="center"
+        android:text="Empezar entrenamiento"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnPausa" />
+
+    <Button
+        android:id="@+id/btnReanudar"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="243dp"
+        android:layout_height="66dp"
+        android:layout_gravity="center"
+        android:contentDescription="Reanudar el video"
+        android:paddingLeft="102dp"
+        android:paddingRight="0dp"
+        app:icon="@android:drawable/ic_media_play"
+        app:iconPadding="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnPausa"
+        tools:ignore="RtlHardcoded" />
+
+    <Button
+        android:id="@+id/btnInicio"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="243dp"
+        android:layout_height="66dp"
+        android:layout_gravity="center"
+        android:contentDescription="Volver al inicio"
+        android:paddingLeft="102dp"
+        android:paddingRight="0dp"
+        android:visibility="visible"
+        app:icon="@drawable/ic_baseline_home"
+        app:iconPadding="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnPausa"
+        tools:ignore="RtlHardcoded" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.35" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.67" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.85" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

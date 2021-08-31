@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "809150817248",
+    "project_id": "housefit-1",
+    "storage_bucket": "housefit-1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:809150817248:android:c34f7d9d6b1e7b5d02c185",
+        "android_client_info": {
+          "package_name": "com.ivanBlazquezIranzo.housefit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "809150817248-7ca0jcd9sjhgr2u7coaijc8v15s0and1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAefMwEoCcyp6O58VYlNh_7IXJxEjDAsNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "809150817248-7ca0jcd9sjhgr2u7coaijc8v15s0and1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

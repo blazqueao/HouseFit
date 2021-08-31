@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+    <string name="app_name">HouseFit</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="entrenar" android:TextSize="20sp" android:TextStyle="bold">Entrenar</string>
+
+    <string name="consejos_alimentacion">1. Elegir la comida real y evitar los procesados\n\n2. No hacer comidas muy abundantes antes del entrenamiento\n\n3. Consumir dos raciones de verdura y tres de fruta al día\n\n4. Comer más alimentos vegetales antes que alimentos animales\n\n5. Fomentar el consumo de cereales de grano entero, es decir, integrales\n\n6. Incluir las legumbres, el aceite de oliva virgen extra, y los frutos secos en la alimentación habitual\n\n7. Beber agua antes, durante y después del ejercicio\n\n8. Al menos bebe 2 litros de agua al dia</string>
+
+    <string name="consejos_posturas" tools:ignore="Typos">1. Es importante adoptar siempre una buena postura para evitar lesiones\n\n2. Si el ejercicio lo realizamos de pie, el mentón y los hombros paralelos al suelo, los pies y rodillas apuntando hacia adelante, y el peso corporal distribuido en ambos pies\n\n3. Ya sea de pie o en otra posicion es fundamental mantener la columna vertebral sin flexionar o arquear\n\n4. Tambien hay que mantener las muñecas y los tobillos firmes y rectos, sin doblarlas hacia arriba o hacia abajo\n\n5. Al momento de correr se debe mantener la cabeza arriba y mirando al frente siempre, los brazos sueltos y los codos en un angulo de 90 grados, e inclinado levemente hacia adelante\n\n</string>
+
+    <string name="consejos_estiramientos">1. Estirar antes y despues de la rutina es muy importante\n\n3. Mejora el desempeño en las actividades físicas\n\n4. Disminuye el riesgo de sufrir lesiones\n\n5. Ayuda a que las articulaciones se muevan en toda su amplitud de movimiento\n\n6. Permite que los músculos trabajen con mayor eficacia\n\n7. Antes de empezar es recomendable estiramientos dinamicos, mas parecidos a calentar que a estirar\n\n8. En cambio al terminar la rutina son mas recomendables estiramientos estaticos</string>
+
+    <string name="consejos_descansos">1. Respeta los tiempos de descanso en la rutina, una sesión demasiado larga sin descansos puede provocar problemas articulares, tendinosos y musculares\n\n2. Si no se descansa lo suficiente después del entrenamiento, el cuerpo no será capaz de recuperarse, lo cual conllevará un debilitamiento permanente y un deterioro de los tejidos\n\n3. El cuerpo mejora porque el descanso ayuda a crecer y a recomponer los músculos\n\n4. Para que un deportista se recupere totalmente hay que dormir al menos 8 horas\n\n5. También es recomendable tener un dia o dos de descanso en los que no se practica deporte\n\n</string>
+
+    <string name="sobreHouseFit">Aplicación realizada por Iván Blázquez Iranzo\n\nCréditos por los videos a musclewiki.com y a giphy.com, de los que acepto y cumplo, sus condiones legales y sus términos de copyright</string>
+</resources>
